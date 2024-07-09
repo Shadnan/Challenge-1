@@ -46,6 +46,7 @@
     width: 852px;
     margin-top: 24px;
     color: #0D1321;
+    line-height: 26px;
 }
 
 .hero-text button {
@@ -64,3 +65,93 @@
 .hero-text button:hover {
     opacity: 0.9;
 }
+/* hero section ends here */
+
+/* main */
+main {
+    margin-top: 74px;
+}
+
+/* why web development section design starts here */
+.why-web-dev {
+    width: 1140px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+    margin: 0 auto;
+    padding: 80px 97px;
+
+}
+
+.why-web-dev-intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #0D1321;
+}
+
+.why-web-dev-intro h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.why-web-dev-intro p {
+    line-height: 26px;
+}
+
+.card-1 {
+    margin-top: 48px;
+    display: flex;
+    padding: 48px;
+    /* align-items: flex-start; */
+    gap: 32px;
+    background-color: #fff;
+}
+
+.card-title {
+    color: rgba(13, 19, 33, 0.70);
+
+    font-size: 24px;
+
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.card-description {
+    color: #0D1321;
+    line-height: 26px;
+    margin-top: 16px;
+    /* 162.5% */
+}
+
+.card-button {
+    margin-top: 32px;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    opacity: 0.7;
+    box-shadow: 10px;
+    font-size: 20px;
+
+    font-weight: 600;
+
+}
+
+.card-2{
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    background-color: #fff;
+    padding: 48px;
+}
+
+.card-3{
+    margin-top: 48px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 48px;
+}
+/* why web development section design ends here */
