@@ -47,6 +47,7 @@
     margin-top: 24px;
     color: #0D1321;
     line-height: 26px;
+    opacity: 0.7;
 }
 
 .hero-text button {
@@ -65,6 +66,7 @@
 .hero-text button:hover {
     opacity: 0.9;
 }
+
 /* hero section ends here */
 
 /* main */
@@ -99,6 +101,7 @@ main {
 
 .why-web-dev-intro p {
     line-height: 26px;
+    opacity: 0.7;
 }
 
 .card-1 {
@@ -123,6 +126,7 @@ main {
     color: #0D1321;
     line-height: 26px;
     margin-top: 16px;
+    opacity: 0.7;
     /* 162.5% */
 }
 
@@ -138,7 +142,7 @@ main {
 
 }
 
-.card-2{
+.card-2 {
     margin-top: 48px;
     display: flex;
     gap: 32px;
@@ -146,7 +150,7 @@ main {
     padding: 48px;
 }
 
-.card-3{
+.card-3 {
     margin-top: 48px;
     margin-top: 48px;
     display: flex;
@@ -154,20 +158,31 @@ main {
     background-color: #fff;
     padding: 48px;
 }
+
 /* why web development section design ends here */
 
 
 /*My inspiration section starts here*/
 
-.my-inspiration{
+.my-inspiration {
     margin-top: 90px;
     width: 1140px;
     /* border: 2px solid black; */
     margin-left: auto;
     margin-right: auto;
+    color: #0D1321;
 }
 
-.inspiration-text{
+.my-inspiration h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.my-inspiration p {
+    opacity: 0.7;
+}
+
+.inspiration-text {
     margin-top: 48px;
     display: flex;
     flex-direction: column;
@@ -175,8 +190,10 @@ main {
     text-align: center;
     gap: 24px;
     line-height: 26px;
+    color: #0D1321;
 }
-.iframe{
+
+.iframe {
     margin-top: 48px;
     width: 100%;
     height: 540px;
@@ -184,4 +201,50 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.20);
 
+}
+
+/* my inspiration section ends here */
+
+.current-target {
+    width: 1140px;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.target-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.target {
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-top: 48px;
+    color: #0D1321;
+}
+
+.target h3{
+    
+font-size: 24px;
+font-weight: 800;
+
+}
+
+.target p{
+line-height: 26px;
+opacity: 0.7;
+}
+
+.target a{
+    color: #0D1321;
+    font-weight: 700;
+    
 }
