@@ -50,8 +50,11 @@
     opacity: 0.7;
 }
 
-.hero-text button {
+.hero-btn{
     margin-top: 32px;
+}
+
+.hero-text .hero-btn a {
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -60,9 +63,11 @@
     border-radius: 8px;
     background: #0D1321;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }
 
-.hero-text button:hover {
+.hero-text a:hover {
     opacity: 0.9;
 }
 .hero-text button a{
