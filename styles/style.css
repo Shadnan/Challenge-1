@@ -52,7 +52,6 @@
 
 .hero-text button {
     margin-top: 32px;
-    color: #fff;
     border: none;
     font-size: 20px;
     font-weight: 600;
@@ -66,7 +65,10 @@
 .hero-text button:hover {
     opacity: 0.9;
 }
-
+.hero-text button a{
+    text-decoration: none;
+    color: #fff;
+}
 /* hero section ends here */
 
 /* main */
@@ -285,34 +287,63 @@ main {
 }
 
 .support-content p {
-    
+
     line-height: 26px;
     opacity: 0.7;
     text-align: center;
 }
 
-.input{
+.input {
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
-.input input{
+
+.input input {
     width: 548px;
     padding: 19px 20px;
     border-radius: 8px;
     border: none;
 }
 
-.input button{
-width: 120px;
-padding: 17px 20px;
-border-radius: 8px;
-border: none;
-cursor: pointer;
+.input button {
+    width: 120px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 
-color: #0D1321;
-font-size: 20px;
-font-weight: 600;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
 
 }
 
+/* feedback section ends here */
+
+/* footer */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+
+.footer-content {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+    align-items: center;
+}
+
+.footer-content p {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 24px;
+}
